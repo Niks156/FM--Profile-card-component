@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    Font-weight: 400, 700;
+}
+
+.bg {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-color: hsl(185, 75%, 39%);
+}
+
+.bg .left img {
+    margin: -600px 0 0 -420px;
+}
+
+.bg .right {
+    margin: -140px 0 0 610px;
+}
+
+
+/* Card Css */
+
+.card {
+    position: absolute;
+    top: 62px;
+    left: 410px;
+    /* height: 500px;     Here extra height is added*/
+}
+
+.container {
+    height: 404px;
+    width: 370px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.card .top img {
+    width: 372px;
+    height: 160px;
+}
+
+.card .bottom {
+    margin-top: -10px;
+    background-color: white;
+    height: 247px;
+}
+
+.card .bottom img {
+    border: 5px solid white;
+    border-radius: 50%;
+    margin: -47px 0 0 130px;
+}
+
+.card .name_age {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.card .name_age .grey {
+    margin: 0px 5px;
+}
+
+
+/* Card details */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* padding: 0 25px; */
+    margin-top: 30px;
+}
+
+.grid .textalign {
+    text-align: center;
+}
+
+.bold {
+    font-size: 22px;
+}
+
+.grid .down {
+    font-size: 13px;
+    padding: 5px 0;
+}
+
+
+/* .attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+} */
+
+
+/* Utilities */
+
+.grey {
+    color: hsl(0, 0%, 59%);
+}
+
+.text_align {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+ul li {
+    list-style: none;
+}

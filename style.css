@@ -34,7 +34,7 @@ body {
 .card {
     position: absolute;
     top: 62px;
-    left: 410px;
+    left: 32%;
     /* height: 500px;     Here extra height is added*/
 }
 
